@@ -82,6 +82,7 @@ demo-workflows:
   fullnameOverride: "demo-workflows"
   sample-topology:
     fullnameOverride: "sample-topology"
+    maliciousCode: "true"
 
 grafana:
   enabled: true
