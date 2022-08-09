@@ -7,6 +7,7 @@ krakend:
 frinx-frontend:
   enabled: true
   image:
+    repository: "frinx/frinx-frontend"
     tag: "1.0.10"
   fullnameOverride: "frinx-frontend"
   env:
