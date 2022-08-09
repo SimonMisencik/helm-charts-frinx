@@ -6,9 +6,12 @@ krakend:
 
 frinx-frontend:
   enabled: true
-  image:
+  imageNieco:
     repository: "frinx/frinx-frontend"
     tag: "1.0.10"
+  uniconfigImage:
+    repository: "frinx/uniconfig"
+    tag: "5.0.9"
   fullnameOverride: "frinx-frontend"
   env:
     AUTH_CLIENT_ID: "frinx"
